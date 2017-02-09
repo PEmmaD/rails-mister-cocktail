@@ -1,0 +1,16 @@
+<h1>Cocktails Party</h1>
+
+<div class="container">
+  <div class="row">
+    <% @cocktails.each do |cocktail| %>
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <%= link_to cocktail_path(cocktail), class:"card" do %>
+        <h2><%= cocktail.name %></h2>
+        <% end %>
+      </div>
+    <% end %>
+  </div>
+</div>
+
+
+<%= link_to 'New cocktail', new_cocktail_path, class "button is-primary is-large" %>
