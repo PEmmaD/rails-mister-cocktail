@@ -40,6 +40,10 @@ gem 'autoprefixer-rails'
 gem 'figaro'
 gem 'rails-controller-testing'
 gem 'cloudinary', '1.1.0'
+source 'https://rails-assets.org' do
+  gem 'rails-assets-plugin'
+end
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
