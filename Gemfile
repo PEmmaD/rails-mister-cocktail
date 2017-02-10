@@ -37,7 +37,7 @@ gem 'simple_form'
 gem 'autoprefixer-rails'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-
+gem 'figaro'
 gem 'rails-controller-testing'
 
 group :development, :test do
